@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Projet de developpement@Copyright Forever Living
+${licensePrefix}Application de gestion des bonus des FBO
+${licensePrefix}Maitre d'ouvrage : Ing AYOLIE Say-halatte Stivell and KAM Corporate
+${licensePrefix}Project Manager and Developper : Mr AYOLIE Say-halatte Stivell
+<#if licenseLast??>
+${licenseLast}
+</#if>
