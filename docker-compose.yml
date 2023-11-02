@@ -8,6 +8,7 @@ services:
         working_dir: /application
         volumes:
             - './app:/application'
+            - ./docker/database:/var/lib/mysql
         environment:
             - MYSQL_ROOT_PASSWORD=FobomAppRootPassword
             - MYSQL_DATABASE=foreverdb
